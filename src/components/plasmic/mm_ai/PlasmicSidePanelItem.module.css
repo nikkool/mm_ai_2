@@ -1,0 +1,80 @@
+.root {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+}
+.root__collapse {
+  width: 55px;
+}
+.box__q4PgD {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  min-width: 0;
+  min-height: 0;
+}
+.box__collapse__q4PgD4UZ3X {
+  width: 55px;
+}
+.box__sw8Qs {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: 10px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 0;
+}
+.box__collapse__sw8Qs4UZ3X {
+  padding-left: 5px;
+}
+.box__tj5Wk {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 5px 10px;
+}
+.box__selected__tj5WkMsMtx {
+  border-radius: 10px;
+  background: #365194;
+}
+.root:hover .box__tj5Wk {
+  border-radius: 10px;
+  background: #78cad233;
+}
+.root__selected:hover .box__selected__tj5WkMsMtx {
+  background: #365194;
+}
+.slotIcon > * {
+  transition-property: all;
+  transition-duration: 1s;
+}
+.slotIcon__selected {
+  color: #efefef;
+}
+.box__lBhXa {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: center;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.slotName__selected {
+  color: #ffffff;
+}

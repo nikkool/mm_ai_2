@@ -1,0 +1,66 @@
+.root {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: #ffffff;
+}
+.box__mLqtb {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 0px;
+  padding: 20px 20px 5px;
+}
+.root:hover .box__mLqtb {
+  background: #78cad21a;
+}
+.box__iWkuk {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0px 0px 5px;
+}
+.box__qezrd {
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.slotName {
+  font-size: 20px;
+  font-weight: 600;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 1px;
+  color: #5353538c;
+  min-width: 0;
+  flex-shrink: 0;
+  margin: 5px 0px;
+}
+.box__knDrp {
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.slotDesc {
+  font-size: 12px;
+}
